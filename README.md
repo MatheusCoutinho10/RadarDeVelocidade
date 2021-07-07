@@ -34,7 +34,7 @@ A aplicação consiste em uma inserção de valores pelo o usuário em três Tex
 git clone https://github.com/MatheusCoutinho10/RadarDeVelocidade
 
 # entrar na pasta do executável
-cd RadarDeVelocidade\bin\Debug
+cd RadarDeVelocidade\RadarDeVelocidade\bin\Debug
 
 # executar o projeto
 RadarDeVelocidade spring-boot:run

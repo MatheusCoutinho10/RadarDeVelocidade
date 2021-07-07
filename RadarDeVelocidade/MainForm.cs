@@ -1,21 +1,10 @@
-﻿/*
- * Criado por SharpDevelop.
- * Usuário: couti
- * Data: 05/07/2021
- * Hora: 18:42
- * 
- * Para alterar este modelo use Ferramentas | Opções | Codificação | Editar Cabeçalhos Padrão.
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace RadarDeVelocidade
 {
-	/// <summary>
-	/// Description of MainForm.
-	/// </summary>
 	public partial class MainForm : Form
 	{
 		public MainForm()
@@ -47,7 +36,7 @@ namespace RadarDeVelocidade
 			else //Se não
 			{
 				label5.Text = "Dentro da velocidade permitida!";
-					pictureBox5.Load("ned.jpg");
+				pictureBox5.Load("ned.jpg");
 			}
 		}
 	}

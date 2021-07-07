@@ -5,3 +5,10 @@ C:\Users\couti\Documents\SharpDevelopProjects\RadarDeVelocidade\RadarDeVelocidad
 C:\Users\couti\Documents\SharpDevelopProjects\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csproj.GenerateResource.Cache
 C:\Users\couti\Documents\SharpDevelopProjects\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.exe
 C:\Users\couti\Documents\SharpDevelopProjects\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.pdb
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\bin\Debug\RadarDeVelocidade.exe
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\bin\Debug\RadarDeVelocidade.pdb
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csprojResolveAssemblyReference.cache
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.MainForm.resources
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csproj.GenerateResource.Cache
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.exe
+C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.pdb

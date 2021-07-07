@@ -45,3 +45,7 @@ RadarDeVelocidade spring-boot:run
 Matheus Henrique Martins Coutinho
 
 https://www.linkedin.com/in/matheushmcoutinho/
+
+# Agradecimentos
+
+[ETEC de Embu](https://www.etecdeembu.com.br/ "Site da ETEC de Embu")

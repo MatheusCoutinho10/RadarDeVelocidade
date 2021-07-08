@@ -37,66 +37,66 @@ namespace RadarDeVelocidade
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-			this.pictureBox5 = new System.Windows.Forms.PictureBox();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
+			this.pb_Animacao = new System.Windows.Forms.PictureBox();
+			this.lbl_Situacao = new System.Windows.Forms.Label();
+			this.lbl_Velocidade = new System.Windows.Forms.Label();
+			this.btn_Calcular = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.tb_Tempo = new System.Windows.Forms.TextBox();
+			this.tb_Posicao2 = new System.Windows.Forms.TextBox();
+			this.tb_Posicao1 = new System.Windows.Forms.TextBox();
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pb_Animacao)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// pictureBox5
+			// pb_Animacao
 			// 
-			this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-			this.pictureBox5.Location = new System.Drawing.Point(528, 26);
-			this.pictureBox5.Name = "pictureBox5";
-			this.pictureBox5.Size = new System.Drawing.Size(216, 177);
-			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox5.TabIndex = 27;
-			this.pictureBox5.TabStop = false;
+			this.pb_Animacao.BackColor = System.Drawing.Color.Transparent;
+			this.pb_Animacao.Location = new System.Drawing.Point(528, 26);
+			this.pb_Animacao.Name = "pb_Animacao";
+			this.pb_Animacao.Size = new System.Drawing.Size(216, 177);
+			this.pb_Animacao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pb_Animacao.TabIndex = 27;
+			this.pb_Animacao.TabStop = false;
 			// 
-			// label5
+			// lbl_Situacao
 			// 
-			this.label5.BackColor = System.Drawing.Color.Transparent;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.Location = new System.Drawing.Point(36, 66);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(469, 44);
-			this.label5.TabIndex = 26;
+			this.lbl_Situacao.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_Situacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_Situacao.Location = new System.Drawing.Point(36, 66);
+			this.lbl_Situacao.Name = "lbl_Situacao";
+			this.lbl_Situacao.Size = new System.Drawing.Size(469, 44);
+			this.lbl_Situacao.TabIndex = 26;
 			// 
-			// label4
+			// lbl_Velocidade
 			// 
-			this.label4.BackColor = System.Drawing.Color.Transparent;
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(36, 26);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(397, 40);
-			this.label4.TabIndex = 25;
-			this.label4.Text = "Velocidade média:";
+			this.lbl_Velocidade.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_Velocidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_Velocidade.Location = new System.Drawing.Point(36, 26);
+			this.lbl_Velocidade.Name = "lbl_Velocidade";
+			this.lbl_Velocidade.Size = new System.Drawing.Size(397, 40);
+			this.lbl_Velocidade.TabIndex = 25;
+			this.lbl_Velocidade.Text = "Velocidade média:";
 			// 
-			// button1
+			// btn_Calcular
 			// 
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(427, 318);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(143, 58);
-			this.button1.TabIndex = 24;
-			this.button1.Text = "Calcular";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.btn_Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_Calcular.Location = new System.Drawing.Point(427, 318);
+			this.btn_Calcular.Name = "btn_Calcular";
+			this.btn_Calcular.Size = new System.Drawing.Size(143, 58);
+			this.btn_Calcular.TabIndex = 24;
+			this.btn_Calcular.Text = "Calcular";
+			this.btn_Calcular.UseVisualStyleBackColor = true;
+			this.btn_Calcular.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// label3
 			// 
@@ -128,29 +128,29 @@ namespace RadarDeVelocidade
 			this.label1.TabIndex = 21;
 			this.label1.Text = "Posição:";
 			// 
-			// textBox3
+			// tb_Tempo
 			// 
-			this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox3.Location = new System.Drawing.Point(427, 238);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(136, 31);
-			this.textBox3.TabIndex = 20;
+			this.tb_Tempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tb_Tempo.Location = new System.Drawing.Point(427, 238);
+			this.tb_Tempo.Name = "tb_Tempo";
+			this.tb_Tempo.Size = new System.Drawing.Size(136, 31);
+			this.tb_Tempo.TabIndex = 20;
 			// 
-			// textBox2
+			// tb_Posicao2
 			// 
-			this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox2.Location = new System.Drawing.Point(750, 238);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(88, 31);
-			this.textBox2.TabIndex = 19;
+			this.tb_Posicao2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tb_Posicao2.Location = new System.Drawing.Point(750, 238);
+			this.tb_Posicao2.Name = "tb_Posicao2";
+			this.tb_Posicao2.Size = new System.Drawing.Size(88, 31);
+			this.tb_Posicao2.TabIndex = 19;
 			// 
-			// textBox1
+			// tb_Posicao1
 			// 
-			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.Location = new System.Drawing.Point(166, 238);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(89, 31);
-			this.textBox1.TabIndex = 18;
+			this.tb_Posicao1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tb_Posicao1.Location = new System.Drawing.Point(166, 238);
+			this.tb_Posicao1.Name = "tb_Posicao1";
+			this.tb_Posicao1.Size = new System.Drawing.Size(89, 31);
+			this.tb_Posicao1.TabIndex = 18;
 			// 
 			// pictureBox4
 			// 
@@ -203,43 +203,44 @@ namespace RadarDeVelocidade
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(854, 511);
-			this.Controls.Add(this.pictureBox5);
-			this.Controls.Add(this.label5);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.pb_Animacao);
+			this.Controls.Add(this.lbl_Situacao);
+			this.Controls.Add(this.lbl_Velocidade);
+			this.Controls.Add(this.btn_Calcular);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.tb_Tempo);
+			this.Controls.Add(this.tb_Posicao2);
+			this.Controls.Add(this.tb_Posicao1);
 			this.Controls.Add(this.pictureBox4);
 			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.pictureBox2);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "MainForm";
 			this.Text = "RadarDeVelocidade";
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pb_Animacao)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
+
 		}
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.PictureBox pictureBox4;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.TextBox tb_Posicao1;
+		private System.Windows.Forms.TextBox tb_Posicao2;
+		private System.Windows.Forms.TextBox tb_Tempo;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.PictureBox pictureBox5;
+		private System.Windows.Forms.Button btn_Calcular;
+		private System.Windows.Forms.Label lbl_Velocidade;
+		private System.Windows.Forms.Label lbl_Situacao;
+		private System.Windows.Forms.PictureBox pb_Animacao;
 	}
 }

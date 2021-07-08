@@ -12,3 +12,10 @@ C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debu
 C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csproj.GenerateResource.Cache
 C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.exe
 C:\Users\Matheus.coutinho\Documents\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.pdb
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\bin\Debug\RadarDeVelocidade.exe
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\bin\Debug\RadarDeVelocidade.pdb
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csprojResolveAssemblyReference.cache
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.MainForm.resources
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.csproj.GenerateResource.Cache
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.exe
+C:\Users\Matheus.coutinho\Documents\GitHub\RadarDeVelocidade\RadarDeVelocidade\obj\Debug\RadarDeVelocidade.pdb

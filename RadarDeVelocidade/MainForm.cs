@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace RadarDeVelocidade
@@ -16,27 +14,26 @@ namespace RadarDeVelocidade
 		{
 			//Botão calcular
 			//Recebendo os dados do usuário
-			float p1 = float.Parse(textBox1.Text);
-			float p2 = float.Parse(textBox2.Text);
-			float t = float.Parse(textBox3.Text);
+			float pos1 = float.Parse(tb_Posicao1.Text);
+			float pos2 = float.Parse(tb_Posicao2.Text);
+			float temp = float.Parse(tb_Tempo.Text);
 			
 			//Calculando a média de velocidade
-			float media = (p2-p1) / t;
+			float velocidadeMedia = (pos2-pos1) / temp;
 			
 			//Mostando na tela
-			label4.Text = "Velocidade média: " + media + " km/h.";
+			lbl_Velocidade.Text = "Velocidade média: " + velocidadeMedia + " km/h.";
 			
-			//Método IF
-			if (media > 80) //Se a média for maior que 80km/h
-			{
-				//Verdadeiro
-				label5.Text = "Multa aplicada!";
-				pictureBox5.Load("policial.png");
+			//Fazendo a verificação com o método if/else
+			if (velocidadeMedia > 80){
+				//Se a velocidade média for maior que 80km/h
+				lbl_Situacao.Text = "Multa aplicada!";
+				pb_Animacao.Load("policial.png");
 			}
-			else //Se não
-			{
-				label5.Text = "Dentro da velocidade permitida!";
-				pictureBox5.Load("ned.jpg");
+			else{
+				//Se não
+				lbl_Situacao.Text = "Dentro da velocidade permitida!";
+				pb_Animacao.Load("ned.jpg");
 			}
 		}
 	}

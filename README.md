@@ -8,7 +8,14 @@ Radar de Velocidade é uma aplicação construída durante as aulas de Programa�
 A aplicação consiste em uma inserção de valores pelo o usuário em três TextBox, onde eles representam a posição do primeiro radar, a posição do segundo radar e o tempo gasto pelo automóvel entre o primeiro e o segundo radar. E ao clicar no botão "CALCULAR", o programa calcula a velocidade média do automóvel e apresenta ela em um Label, além disso ele informa se o veículo esteve dentro da velocidade permitida ou se a multa foi aplicada, mostrando uma imagem animada para cada um dos casos em um PictureBox.
 
 ## Layout
-![Layout 1](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade01.JPG) ![Layout 2](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade02.JPG) ![Layout 3](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade03.JPG)
+### Início
+![Layout 1](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade01.JPG)
+
+### Multa aplicada
+![Layout 2](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade02.JPG)
+
+### Dentro da velocidade permitida
+![Layout 3](https://github.com/MatheusCoutinho10/RadarDeVelocidade/blob/master/Assets/RadarDeVelocidade03.JPG)
 
 # Tecnologias utilizadas
 ## Back end

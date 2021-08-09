@@ -218,6 +218,7 @@ namespace RadarDeVelocidade
 			this.Controls.Add(this.pictureBox2);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "MainForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "RadarDeVelocidade";
 			((System.ComponentModel.ISupportInitialize)(this.pb_Animacao)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
